@@ -1,5 +1,5 @@
 import { motion, transformValue } from "framer-motion";
-import boy from "../assets/boy.jpg";
+import boy from "../assets/Aniket.png";
 
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
         viewport={{once:transformValue, amount:0.4}}
         >
 
-          <motion.div className=" relative w-[160px] h-[160px] md:w-[200px] md:h-[200px] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-[#1cd8d2]/20 to-[#302b63]/20 border border-[#1cd8d2]/25"
+          <motion.div className=" relative w-[220px] h-[220px] md:w-[260px] md:h-[260px] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-[#1cd8d2]/20 to-[#302b63]/20 border border-[#1cd8d2]/25"
           whileHover={{scale:1.02}}
           transition={{type:"spring", stiffness:200, damping:18}}
           >

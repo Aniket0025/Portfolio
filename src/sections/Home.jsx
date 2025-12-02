@@ -105,7 +105,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                Hello I'm
+                Hello, I'm
                 <br />
                 <span className="text-white font-bold text-5xl sm:text-6xl md:text-7xl lg:whitespace-nowrap">
                   Aniket Yadav
@@ -184,7 +184,6 @@ const Home = () => {
                 opacity: 0.32,
                 background: "conic-gradient(from 0deg, #1cd8d2, #00bf8f, #302b63, #1cd8d2)"
               }}
-
               
             />
 

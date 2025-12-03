@@ -5,12 +5,10 @@ import Navbar from "./components/Navbar"
 import About from "./sections/About"
 import Achievement from "./sections/Achievement.jsx"
 import Contact from "./sections/Contact"
-import Experience from "./sections/Experience"
 import Footer from "./sections/Footer"
 import Home from "./sections/Home"
 import Project from "./sections/Project"
 import Skills from "./sections/Skills"
-import Testimonials from "./sections/Testimonials"
 
 
 function App() {
@@ -35,8 +33,8 @@ function App() {
       <Skills/>
       <Project/>
       <Achievement/>
-      <Experience/>
-      <Testimonials/>
+      {/* <Experience/>
+      <Testimonials/> */}
       <Contact/>
       <Footer/>
 

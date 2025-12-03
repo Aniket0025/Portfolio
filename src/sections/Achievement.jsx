@@ -51,15 +51,7 @@ const achievements = [
       </p>
     ),
   },
-  {
-    title: "Finalist – Code Rush",
-    image: PBL,
-    content: (
-      <p className="text-gray-300">
-        Explored AI features and integrated them into apps.
-      </p>
-    ),
-  },
+
 ];
 
 export default function Achievement() {
